@@ -271,7 +271,7 @@ function getTextTime() {
         if (minuteGetter < 10){
             minuteGetter = "0"+minuteGetter;
         }
-        textTime = hourGetter + "<br/>" + minuteGetter;
+        var textTime = hourGetter + "<br/>" + minuteGetter;
         if (clicks >= 6){
             clicks = 0;
         }
