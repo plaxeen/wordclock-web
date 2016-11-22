@@ -280,18 +280,17 @@ function getTextTime() {
     window.setTimeout("getTextTime();", 500);
 }
 
-function counter() {
+function onClick() {
     clicks++;
-    changeColor();
-}
-
-function changeColor() {
+	
     var red = Math.floor(Math.random()*(256));
     var green = Math.floor(Math.random()*(256));
     var blue = Math.floor(Math.random()*(256));
+	
     var redbg = red - 30;
     var greenbg = green - 30;
     var bluebg = blue - 30;
+	
     console.log("red: "+ red +"; green: "+green+"; blue: "+blue);
     document.getElementById("wclock").style.backgroundColor = "rgb("+red+","+green+","+blue+")";
     document.body.style.backgroundColor = "rgb("+redbg+","+greenbg+","+bluebg+")";
