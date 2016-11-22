@@ -1,6 +1,7 @@
 # WordClock WEB version
 WordClock was originally developed for the Android mobile platform, and now it was rewritten for the web.
-Приложение WordClock изначально был разработан для мобильной платформы Android, теперь он переписан и для web.
+
+Приложение WordClock изначально было разработано для мобильной платформы Android, теперь он переписан и для web.
 
 ***
 
