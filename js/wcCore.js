@@ -22,7 +22,7 @@ function getTextTime() {
             hourText = "ДВА";
         }
         if (hourGetter == "03") {
-            hourText = "ЧЕТЫРЕ";
+            hourText = "ТРИ";
         }
         if (hourGetter == "04") {
             hourText = "ЧЕТЫРЕ";
