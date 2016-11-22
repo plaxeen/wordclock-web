@@ -280,8 +280,12 @@ function getTextTime() {
     window.setTimeout("getTextTime();", 500);
 }
 
-function onClick() {
-    clicks++;
+function counter() {
+	clicks++;
+	changeColor();
+}
+
+function changeColor() {
 	
     var red = Math.floor(Math.random()*(256));
     var green = Math.floor(Math.random()*(256));
