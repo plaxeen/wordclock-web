@@ -3,11 +3,11 @@
  * Created by Shmeile Media on 30.08.2016.
  */
 var clicks = 0;
-var currentDate = new Date();
-var hourGetter = currentDate.getHours();
-var minuteGetter = currentDate.getMinutes();
 
 function getTextTime() {
+	var currentDate = new Date();
+	var hourGetter = currentDate.getHours();
+	var minuteGetter = currentDate.getMinutes();
     var hourText;
     var minuteText;
 
