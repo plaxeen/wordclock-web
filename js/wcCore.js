@@ -3,7 +3,7 @@
  * Created by Shmeile Media on 30.08.2016.
  */
 var clicks = 0;
-var clicksConsole = 0;
+var clicksConsole = document.cookie;
 
 function getTextTime() {
 	var currentDate = new Date();
@@ -284,6 +284,7 @@ function getTextTime() {
 function counter() {
 	clicks++;
 	clicksConsole++;
+	document.cookie = "clicksConsole=" + clicksConsole + ";path=/";
 	console.log("You're clicked: "+ clicksConsole);
 	changeColor();
 }
