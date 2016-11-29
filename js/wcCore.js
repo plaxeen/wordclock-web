@@ -3,7 +3,7 @@
  * Created by Shmeile Media on 30.08.2016.
  */
 var clicks = 0;
-var clicksConsole = document.cookie;
+var clicksConsole = getCookie(clicks);
 
 function getTextTime() {
 	var currentDate = new Date();
@@ -284,7 +284,7 @@ function getTextTime() {
 function counter() {
 	clicks++;
 	clicksConsole++;
-	document.cookie = "clicksConsole=" + clicksConsole + ";path=/";
+	document.cookie = "clicks=" + clicksConsole + ";path=/";
 	console.log("You're clicked: "+ clicksConsole);
 	changeColor();
 }
@@ -302,4 +302,11 @@ function changeColor() {
     console.log("red: "+ red +"; green: "+green+"; blue: "+blue);
     document.getElementById("wclock").style.backgroundColor = "rgb("+red+","+green+","+blue+")";
     document.body.style.backgroundColor = "rgb("+redbg+","+greenbg+","+bluebg+")";
+}
+
+function getCookie(name) {
+  var matches = document.cookie.match(new RegExp(
+    "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+  ));
+  return matches ? decodeURIComponent(matches[1]) : 0;
 }
