@@ -19,6 +19,7 @@ body {
 #textClock {
     font-weight: 700;
     font-size: 40pt;
+    text-shadow: 0 5px 20px rgba(0, 0, 0, 0.29);
     text-align: center;
     display: table-cell;
     vertical-align: middle;
