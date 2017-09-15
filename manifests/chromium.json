@@ -8,22 +8,22 @@
   "description": "Сколько время?",
   "icons": [
     {
-      "src": "img\/wordclock16.png",
+      "src": "\/img\/wordclock16.png",
       "sizes": "16x16",
       "type": "image\/png"
     },
     {
-      "src": "img\/wordclock32.png",
+      "src": "\/img\/wordclock32.png",
       "sizes": "32x32",
       "type": "image\/png"
     },
     {
-      "src": "img\/wordclock192.png",
+      "src": "\/img\/wordclock192.png",
       "sizes": "192x192",
       "type": "image\/png"
     },
     {
-      "src": "img\/wordclock512.png",
+      "src": "\/img\/wordclock512.png",
       "sizes": "512x512",
       "type": "image\/png"
     }
