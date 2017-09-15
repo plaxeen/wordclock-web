@@ -1,8 +1,10 @@
-# WordClock WEB version
-WordClock was originally developed for the Android mobile platform, and now it was rewritten for the web.
+# WordClock
+![WordClock Logo](/img/wordclock192.png)
 
-Приложение WordClock изначально было разработано для мобильной платформы Android, теперь он переписан и для web.
+**WordClock** application was originally [developed for Android OS](https://play.google.com/store/apps/details?id=ru.shmeile.wordclock2), and now it was rewritten for the web.
 
+Приложение **БУКВЕННЫЕ ЧАСИКИ** изначально было [разработано для ОС Android](https://play.google.com/store/apps/details?id=ru.shmeile.wordclock2), теперь он доступен и в WEB.
+![WordClock Promo](/img/wordclock.png)
 ***
 
 All rights reserved [© Shmeile Media](https://github.com/shmeilemedia)
