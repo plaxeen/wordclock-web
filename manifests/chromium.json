@@ -1,0 +1,35 @@
+{
+  "name": "БУКВЕННЫЕ ЧАСИКИ",
+  "short_name": "WordClock",
+  "start_url": "http://shmeile.ru/wordclock/",
+  "display": "standalone",
+  "theme_color": "#3A3A3A",
+  "background_color": "#3A3A3A",
+  "description": "Сколько время?",
+  "icons": [
+    {
+      "src": "\/img\/wordclock16.png",
+      "sizes": "16x16",
+      "type": "image\/png"
+    },
+    {
+      "src": "\/img\/wordclock32.png",
+      "sizes": "32x32",
+      "type": "image\/png"
+    },
+    {
+      "src": "\/img\/wordclock192.png",
+      "sizes": "192x192",
+      "type": "image\/png"
+    },
+    {
+      "src": "\/img\/wordclock512.png",
+      "sizes": "512x512",
+      "type": "image\/png"
+    }
+  ],
+  "related_applications": [{
+    "platform": "play",
+    "url": "https://play.google.com/store/apps/details?id=ru.shmeile.wordclock2"
+  }]
+}
