@@ -1,7 +1,7 @@
 {
   "name": "БУКВЕННЫЕ ЧАСИКИ",
   "short_name": "WordClock",
-  "start_url": ".",
+  "start_url": "/.",
   "display": "standalone",
   "theme_color": "#3A3A3A",
   "background_color": "#3A3A3A",
