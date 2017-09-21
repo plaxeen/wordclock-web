@@ -1,0 +1,7 @@
+{
+    "api_version": 4,
+    "layout": {
+        "logo": "https://plaxin.github.io/wordclock-web/img/yandex-tablo-logo.png",
+        "color": "#1b1b1b"
+    },
+}
