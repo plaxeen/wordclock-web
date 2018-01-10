@@ -9,7 +9,8 @@ var timeText = ["НОЛЬ", "ОДИН", "ДВА", "ТРИ", "ЧЕТЫРЕ", "П�
         "СОРОК ДЕВЯТЬ", "ПЯТЬДЕСЯТ", "ПЯТЬДЕСЯТ ОДИН", "ПЯТЬДЕСЯТ ДВА", "ПЯТЬДЕСЯТ ТРИ", "ПЯТЬДЕСЯТ ЧЕТЫРЕ",
         "ПЯТЬДЕСЯТ ПЯТЬ", "ПЯТЬДЕСЯТ ШЕСТЬ", "ПЯТЬДЕСЯТ СЕМЬ", "ПЯТЬДЕСЯТ ВОСЕМЬ", "ПЯТЬДЕСЯТ ДЕВЯТЬ"];
 
-var pushCount = 0;
+var fonts = ["'Alegreya Sans SC', sans-serif", "'Roboto', sans-serif", "'Bad Script', cursive",
+    "'Cormorant Unicase', serif", "'Exo 2', sans-serif", "'Lobster', cursive", "'Lora', serif"];
 
 function coreCount() {
     var currentDate = new Date();
@@ -21,15 +22,15 @@ function coreCount() {
 }
 
 function onClick() {
-    ++pushCount;
     changeColor();
-    document.cookie = "clicks=" + pushCount + ";path=/";
 }
 
 function changeColor() {
-    var red = Math.floor(Math.random()*(256));
-    var green = Math.floor(Math.random()*(256));
-    var blue = Math.floor(Math.random()*(256));
+    var color1 = [Math.round(Math.random()*(255)), Math.round(Math.random()*(255)), Math.round(Math.random()*(255))];
+    var color2 = [Math.round(Math.random()*(255)), Math.round(Math.random()*(255)), Math.round(Math.random()*(255))];
 
-    document.body.style.backgroundColor = "rgb("+red+","+green+","+blue+")";
+    var body = document.body.style;
+
+    body.background = "linear-gradient(125deg, rgb("+color1[0]+","+color1[1]+","+color1[2]+"), rgb("+color2[0]+","+color2[1]+","+color2[2]+")";
+    body.fontFamily = fonts[Math.round(Math.random()*(fonts.length))];
 }
